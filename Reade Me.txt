@@ -1,0 +1,122 @@
+HOW TO RUN THE PROJECT
+
+Step 1: Connect to MySQL Database
+
+1. Open MySQL on your system.
+
+
+2. Connect using the following credentials:
+
+Database Name: employee
+
+Username: root
+
+Password: badboys*24
+
+
+
+3. Ensure that the MySQL server is running properly before proceeding.
+
+
+
+
+Step 2: Run the Backend
+
+1. Open Visual Studio Code (VS Code).
+
+
+2. Open the backend folder of the project.
+
+
+3. Open a new terminal in VS Code.
+
+
+4. Run the backend file using the command:
+
+node server.js
+
+or
+
+npm start
+
+
+5. This will establish a connection between the backend and the MySQL database to store and manage data.
+
+
+
+
+---
+
+Step 3: Run the Frontend
+
+1. In VS Code, open the frontend folder.
+
+
+2. Open a new terminal and switch the terminal type to Command Prompt.
+
+
+3. Navigate to the frontend project location using:
+
+cd 
+
+
+4. Run the frontend using the command:
+
+npm start
+
+
+5. This command will start the React development server and automatically open your default web browser.
+
+
+
+
+---
+
+Step 4: View the Web Application
+
+1. The project will open in your browser using the following link:
+
+http://localhost:3000
+
+
+2. The home screen will appear with a “Add User” button on the top-right corner.
+
+
+3. Click Add User to enter and save the user details (Name, Email, etc.).
+
+
+
+
+---
+
+Step 5: Application Features
+
+The main page displays the list of users with their Name and Email.
+
+Each user entry has three buttons:
+
+View: Displays complete details of the selected user.
+
+Edit: Allows you to update the details of that user.
+
+Delete: Removes the user data from the database.
+
+
+Every user entry has its own individual View, Edit, and Delete buttons.
+
+
+
+---
+
+Step 6: Conclusion
+
+This project demonstrates how to perform CRUD (Create, Read, Update, Delete) operations using React (Frontend), Node.js/Express (Backend), and MySQL (Database).
+It has been developed as part of my placement project to showcase my full-stack development skills.
+
+
+---
+
+Thank you for reviewing my project.
+I hope it meets your expectations and provides a clear understanding of its functionality.
+
+– Surjith D
