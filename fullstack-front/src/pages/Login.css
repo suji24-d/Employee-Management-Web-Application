@@ -1,0 +1,60 @@
+/* Full page background */
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* Login card */
+.login-card {
+  background: #ffffff;
+  padding: 2.5rem;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+/* Title */
+.login-card h3 {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Inputs */
+.login-card .form-control {
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.login-card .form-control:focus {
+  border-color: #764ba2;
+  box-shadow: 0 0 0 0.2rem rgba(118, 75, 162, 0.25);
+}
+
+/* Button */
+.login-btn {
+  border-radius: 8px;
+  padding: 10px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: hwb(270 29% 36%);
+  border-color: #764ba2;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
